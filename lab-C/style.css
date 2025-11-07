@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "tablet-gothic", verdana, arial, sans-serif;
+    background: #4b1e00; 
+    color: #fff8f0; 
+}
+
+.top-container {
+    display: flex;
+    justify-content: center;
+}
+
+#map, #puzzle {
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    border: 10px inset #ffcc99; 
+    font-size: 0;
+    background: #663300; 
+}
+
+.placeholder {
+    display: inline-block;
+    position: relative;
+}
+
+.placeholder.dragover {
+    background-color: #cc6633; 
+}
+
+.middle-container {
+    display: flex;
+    justify-content: center;
+}
+
+button.mapBtn {
+    background-color: #ffcc99; 
+    border: 1px solid #ffcc99;
+    border-radius: 4px;
+    color: #4b1e00; 
+    cursor: pointer;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+button.mapBtn:hover {
+    background-color: #cc6633; 
+    color: #fff8f0;
+}
+
+.bot-container {
+    display: flex;
+    justify-content: center;
+}
+
+#elements {
+    width: 60%;
+    height: 285px;
+    margin: 10px;
+    padding: 10px;
+    border: 10px inset #ffcc99;
+    text-align: left;
+    background: #804000;
+}
+
+#elements img {
+    font-size: 0;
+    padding: 5px;
+}
+
+#copyright {
+    text-align: center;
+    margin: 10px;
+    color: #ffdab3; 
+}
+
+@media only screen and (max-width: 1682px) {
+    #elements { height: 410px; }
+}
+
+@media only screen and (max-width: 1282px) {
+    #elements { height: 530px; }
+}

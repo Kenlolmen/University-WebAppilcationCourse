@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+        <script type="text/javascript" src="https://rawgit.com/d3/d3-plugins/master/hexbin/hexbin.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+        <script src="https://rawgit.com/mapbox/leaflet-image/gh-pages/leaflet-image.js"></script>
+        <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css">
+        <meta charset="utf-8"
+              name="viewport"
+              content="width=device-width, initial-scale=1.0">
+        <title>Map Puzzle</title>
+    </head>
+    <body>
+        <div class="top-container">
+            <div id="map"></div>
+            <div id="puzzle" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+        <div class="middle-container">
+            <div id="buttons">
+                <button class="mapBtn" onclick="getLocation()">Moja lokalizacja</button>
+                <button class="mapBtn" onclick="captureMap()">Pobierz mapę</button>
+            </div>
+        </div>
+        <div class="bot-container">
+            <div id="elements" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
