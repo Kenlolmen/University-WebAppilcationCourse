@@ -104,7 +104,7 @@ const WeatherApp = class {
     }
 }
 
-document.weatherApp = new WeatherApp("eeab80e085c57d5ec0748948e8040780", "#weather-results-container");
+document.weatherApp = new WeatherApp("7ded80d91f2b280ec979100cc8bbba94", "#weather-results-container");
 
 document.querySelector("#checkButton").addEventListener("click", function() {
     const query = document.querySelector("#locationInput").value;
