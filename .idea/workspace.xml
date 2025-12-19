@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1d98fd2-7c9e-49e6-9426-88eb2918b352" name="Changes" comment="" />
+    <list default="true" id="d1d98fd2-7c9e-49e6-9426-88eb2918b352" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e1cfb352-4481-4db5-b011-57628a62065d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e1cfb352-4481-4db5-b011-57628a62065d/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +24,13 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/lab-F/custom-php-framework" />
+  </component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="8462" ignore_connections_through_unregistered_servers="false">
+    <xdebug_debug_ports port="8462" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -20,13 +41,54 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Database Script.01-post.sql.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/aleksander/Studia/sem5/ai1/lab-F/custom-php-framework/config",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php.debug",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ],
+    "RunConfigurationTargetLRU": [
+      "abf47e59-adaa-49d4-94e7-4bb0ff3439e8"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lab-F/custom-php-framework/config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Database Script.01-post.sql">
+    <configuration name="01-post.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/lab-F/custom-php-framework/sql/01-post.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="abf47e59-adaa-49d4-94e7-4bb0ff3439e8" />
+      <method v="2" />
+    </configuration>
+    <configuration name="labdebug" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" filter_connections="FILTER" session_id="PHPSTORM">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Database Script.01-post.sql" />
+      <item itemvalue="PHP Remote Debug.labdebug" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.01-post.sql" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -44,6 +106,7 @@
       <updated>1760189103988</updated>
       <workItem from="1760189105704" duration="33000" />
       <workItem from="1760189265316" duration="53000" />
+      <workItem from="1766173359112" duration="8717000" />
     </task>
     <servers />
   </component>
