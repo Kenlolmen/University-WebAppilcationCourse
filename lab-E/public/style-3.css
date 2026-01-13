@@ -1,0 +1,118 @@
+:root {
+    --neon-pink: #ff00ff;
+    --neon-blue: #00f2ff;
+    --deep-space: #0b0e14;
+    --panel-bg: #161b22;
+    --text-main: #e6edf3;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--deep-space);
+    background-image: 
+        radial-gradient(circle at 20% 30%, rgba(0, 242, 255, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 80% 70%, rgba(255, 0, 255, 0.05) 0%, transparent 40%);
+    color: var(--text-main);
+    line-height: 1.6;
+}
+
+header {
+    background: var(--panel-bg);
+    padding: 3rem 1rem;
+    text-align: center;
+    border-bottom: 2px solid var(--neon-blue);
+    box-shadow: 0 0 20px rgba(0, 242, 255, 0.2);
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 
+        0 0 5px #fff,
+        0 0 10px var(--neon-blue),
+        0 0 20px var(--neon-blue);
+    letter-spacing: 10px;
+}
+
+#style-switcher {
+    margin-top: 25px;
+}
+
+#style-switcher a {
+    color: var(--neon-blue);
+    text-decoration: none;
+    padding: 8px 20px;
+    border: 1px solid var(--neon-blue);
+    margin: 0 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    box-shadow: inset 0 0 5px rgba(0, 242, 255, 0.2);
+}
+
+#style-switcher a:hover {
+    background: var(--neon-blue);
+    color: var(--deep-space);
+    box-shadow: 0 0 15px var(--neon-blue);
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    background: var(--panel-bg);
+    padding: 40px;
+    border-radius: 4px;
+    border: 1px solid #30363d;
+}
+
+h2 {
+    color: var(--neon-pink);
+    text-shadow: 0 0 10px rgba(255, 0, 255, 0.3);
+    margin-bottom: 20px;
+    border-left: 4px solid var(--neon-pink);
+    padding-left: 15px;
+}
+
+img {
+    border: 1px solid var(--neon-blue);
+    padding: 5px;
+    background: #000;
+    filter: hue-rotate(280deg) saturate(1.2); /* Lekka zmiana kolorów obrazka pod styl */
+    transition: 0.5s;
+}
+
+img:hover {
+    filter: hue-rotate(0deg) saturate(1.1);
+    box-shadow: 0 0 30px rgba(0, 242, 255, 0.4);
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "» ";
+    color: var(--neon-blue);
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    color: #484f58;
+    border-top: 1px solid #30363d;
+}
+
+/* Styl dla aktywnego linku */
+#style-switcher a.active {
+    background: var(--neon-pink);
+    border-color: var(--neon-pink);
+    color: white;
+    box-shadow: 0 0 15px var(--neon-pink);
+}
